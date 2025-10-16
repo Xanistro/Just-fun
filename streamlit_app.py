@@ -18,3 +18,4 @@ st.write(
   "attempting to make a BMI calculator"
 )
 weight=st.number_input("Weight (lbs)", min_value=0, max_value=1000, value=0)
+height=st.number_input("Height (In)", min_value=0, mac_value=100, value=0)
