@@ -32,6 +32,6 @@ score=st.number("score", value=0)
 
 if st.button("Click!"):
   if score>0:
-  st.write(
+st.write(
   "Good job"
 )
