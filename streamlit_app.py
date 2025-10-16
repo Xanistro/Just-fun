@@ -25,5 +25,5 @@ if st.button("Calculate BMI"):
     calculated_bmi=weight/((height/100)**2)
     st.success(f"Your caluclated BMI is  **{calculated_bmi:.2f}**")
     bmi=calculated_bmi
-       else:
-                           st.warning("Please enter both weight and height to calculate for BMI")
+  else:
+      st.warning("Please enter both weight and height to calculate for BMI")
