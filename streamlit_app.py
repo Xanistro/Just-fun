@@ -8,3 +8,8 @@ st.write(
 
 st.number_input("How happy are you?", min_value=0, max_value=10, value=5)
 st.number_input("How sad are you?", min_value=0, max_value=10, value=5)
+st.write(
+  "Ts is so cool
+  "
+  "This should be one below"
+)
