@@ -22,7 +22,7 @@ height=st.number_input("Height (cm)", min_value=0, max_value=100, value=0)
 
 if st.button("Calculate BMI"):
   if weight>0 and height>0:
-    calculated_bmi=weight/((height/100)**2
+    calculated_bmi=weight/((height/100)**2)
     st.success(f"Your caluclated BMI is  **{calculated_bmi:.2f}**")
     bmi=calculated_bmi
        else:
