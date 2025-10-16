@@ -14,3 +14,6 @@ st.write(
 st.write(
   "This should be below"
 )
+st.write(
+  "attempting to make a BMI calculator"
+)
