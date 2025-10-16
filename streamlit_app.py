@@ -28,7 +28,10 @@ if st.button("Calculate BMI"):
   else:
       st.warning("Please enter both weight and height to calculate for BMI")
 
-st.number("score", value=0)
+score=st.number("score", value=0)
 
 if st.button("Click!")
-  
+  if score>0
+  st.write(
+  "Good job"
+)
