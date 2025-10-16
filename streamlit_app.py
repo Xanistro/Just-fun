@@ -31,7 +31,7 @@ if st.button("Calculate BMI"):
 score=st.number("score", value=0)
 
 if st.button("Click!"):
-if score>0:
-  st.write(
-  "Good job"
+  if score>0:
+    st.write(
+    "Good job"
 )
